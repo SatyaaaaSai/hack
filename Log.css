@@ -1,0 +1,160 @@
+body{
+  background-image: url('./background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.auth-box {
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    position: absolute;
+    left: 550px;
+    top: 125px;
+  }
+  .header {
+    width: 400px;
+    height: 80px;
+    background-color: lightgreen;
+    display: flex;
+  }
+  button{
+    width: 200px;
+    background-color: transparent;
+    border: none;
+  }
+  #txtcontent1 {
+    width: 400px;
+    height: 370px;
+    background-color: red;
+    position: absolute;
+  }
+  #txtcontent2 {
+    width: 400px;
+    height: 370px;
+    background-color: blueviolet;
+    position: absolute;
+  }
+  .unmaelabel{
+    font-size:20px;
+    font-family: sans-serif;
+    position:relative;
+    top: 80px;
+    left: 10px;
+  }
+  .unametxt{
+    width: 180px;
+    height: 20px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    position:relative;
+    top: 80px;
+    left: 10px;
+  }
+  .passlabel{
+    font-size:20px;
+    font-family: sans-serif;
+    position:relative;
+    top: 80px;
+    left: 20px;
+  }
+  .passtxt{
+    width: 180px;
+    height: 20px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    position:relative;
+    top: 80px;
+    left: 20px;
+  }
+  .Loginbtn{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    position:relative;
+    top: 150px;
+    right: 120px;
+    border-radius: 10px;
+  }
+
+
+  /* REGISTRE fORM */
+
+  #regForm {
+    background-color: lightgreen;
+    /* margin: 100px auto; */
+    font-family: Raleway;
+    padding: 0px;
+    width: 400px;
+    height: 370px;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .regtxt{
+    text-align: center;  
+    color: #1B7CB2;
+  }
+  
+  .input1 {
+    width: 310px;
+    height:40px;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  .input1.invalid {
+    background-color: #ffdddd;
+  }
+  .tab {
+    display: none;
+    position: absolute;
+    left:30px;
+  }
+  
+  .both-btn{
+    width: 130px;
+    height: 50px;
+    background-color: #25a1e4;
+    color: #ffffff;
+    border: none;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  .both-btn:hover {
+    opacity: 0.8;
+  }
+  #nextBtn{
+    /* background-color: #bbbbbb; */
+    position: absolute;
+    top:250px;
+    right: 50px;
+  }
+  #prevBtn {
+    background-color: #bbbbbb;
+    position: absolute;
+    top:250px;
+    right: 240px;
+  }
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #1B7CB2;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
